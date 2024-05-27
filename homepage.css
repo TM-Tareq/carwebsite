@@ -4,18 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav-pic {
+.nav-page {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
-.nav-logo {
-    width: 10px;
+.nav-logo img {
+    max-width: 200px;
     height: 25px;
-    display: block;
+    display: inline-block;
 }
 .nav-sidebar a {
   text-decoration: none;
-  01815081542
-  01879712566
+  margin-left: 20px;
 }
+.nav-sidebar a:first-child {
+    margin-left: 0;
+}
+
