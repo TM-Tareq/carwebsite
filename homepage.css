@@ -1,22 +1,46 @@
+/* Fonts Racing Sans */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Racing+Sans+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.nav-page {
+body {
+    font-family: "Roboto", sans-serif;
+    background: #000;
+}
+.nav-pic {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    /* position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000; */
 }
 .nav-logo img {
     max-width: 200px;
     height: 25px;
     display: inline-block;
+    font-weight: 800;
+    color: #fff;
+    filter: invert(1);
 }
+/* .nav-logo::after{
+    content: '';
+    height: 5px;
+    width: 40%;
+    background-color: #00c3de;
+    position: absolute;
+} */
 .nav-sidebar a {
   text-decoration: none;
   margin-left: 20px;
+  color: black;
+  font-size: 1.02rem;
+  filter: invert(1);
 }
 .nav-sidebar a:first-child {
     margin-left: 0;
