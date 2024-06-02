@@ -52,6 +52,32 @@ body {
 .nav-sidebar a:first-child {
     margin-left: 0;
 }
-1.	Traversy Media 2. JavaScript mastery 3. Programming with Mosh 4. Hitesh Chawdhry 5. Harkirat Singh 6. Fireship 7. Wed Dev Simplify
-https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
+.banner {
+    width: 100%;
+    /* min-height: 100vh; */
+    height: 100%;
+    padding: 0 100px;
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0.6)
+        rgba(0, 0, 0, 0.9)
+    );
+    background-position: fixed;
+    
+}
 
+.bg-video {
+    height: 100%;
+    width: 100%;
+    /* display: none; */
+    /* position: absolute; */
+    content: '';
+    top: 0px;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+}
+.bg-video.active {
+    display: block;
+}
