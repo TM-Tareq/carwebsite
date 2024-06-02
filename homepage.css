@@ -15,10 +15,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
-    /* position:absolute;
+    position:relative;
     top: 0;
     left: 0;
-    z-index: 1000; */
+    z-index: 100;
+    cursor: pointer;
 }
 .nav-logo img {
     max-width: 200px;
@@ -28,21 +29,29 @@ body {
     color: #fff;
     filter: invert(1);
 }
-/* .nav-logo::after{
+.nav-logo::after{
     content: '';
     height: 5px;
     width: 40%;
-    background-color: #00c3de;
+    margin: 12px 0 0 25px;
+    border-radius: 5px;
+    /* background-color: #00c3de; */
+    background: rgb(0,195,222);
+    background: linear-gradient(90deg, rgba(0,195,222,1) 0%, rgba(2,0,36,1) 80%);
     position: absolute;
-} */
+    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black;
+}
 .nav-sidebar a {
   text-decoration: none;
   margin-left: 20px;
   color: black;
   font-size: 1.02rem;
   filter: invert(1);
+  cursor: pointer;
 }
 .nav-sidebar a:first-child {
     margin-left: 0;
 }
+1.	Traversy Media 2. JavaScript mastery 3. Programming with Mosh 4. Hitesh Chawdhry 5. Harkirat Singh 6. Fireship 7. Wed Dev Simplify
+https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 
