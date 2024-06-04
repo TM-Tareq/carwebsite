@@ -70,8 +70,8 @@ body {
 .bg-video {
     height: 100%;
     width: 100%;
-    /* display: none; */
-    /* position: absolute; */
+    display: none;
+    position: absolute;
     content: '';
     top: 0px;
     bottom: 0;
