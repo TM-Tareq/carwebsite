@@ -81,3 +81,9 @@ body {
 .bg-video.active {
     display: block;
 }
+.mg-content {
+    position: relative;
+    z-index: 1001;
+    max-width: 700px;
+    height: 25px;
+}
